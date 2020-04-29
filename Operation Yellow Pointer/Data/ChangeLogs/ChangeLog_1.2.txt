@@ -1,0 +1,24 @@
+﻿Changes for Version 1.2 
+Codename: "Well-Needed Update"
+
+Added:
+    1. Windows Pane Freezing
+        a. When exporting single searches to a workbook, the top header is frozen
+        b. Ticker column is always frozen
+        c. New settings options -> ability to turn windows pane freezing on/off
+    2. Console Title Cosmetic Update
+        a. The console title changes to whatever module the program is displaying
+        b. Aids in navigation
+    3. Program Icon
+        a. Yellow Pointer now has its own icon: a vertical yellow arrow rotated 45° to the right
+
+Fixed/Changed:
+    1. Cleaned up terminal when displaying changelogs
+    2. More transparent database cloud backup
+    3. Temporary files that the program uses are no longer created on desktop
+    4. Improved error correction in batch searches
+        a. Fixed an error that would occur if a | character is in column B
+        b. Removed issue where entire batch search would fail if a single search was invalid
+        c. Batch search automatically detects invalid metrics and automatically removes them
+    5. Fixed crash that was caused if the user tried to import a file that was open in Excel
+    6. Fixed a potentially fatal bug that would occur if the user performed a backup offline

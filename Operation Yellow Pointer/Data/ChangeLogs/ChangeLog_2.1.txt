@@ -1,0 +1,10 @@
+﻿Changes for Version 2.1
+Codename: "Simpleton Update"
+
+Highlights:
+    1. Search Options Update
+        a. User can now use consecutive years search
+        b. i.e. 2017-2016
+    2. Autolaunch Excel workbooks are now fixed
+    3. Installer has been upgraded to v3.0
+        a. Updates are now handled directly inside Yellow Pointer

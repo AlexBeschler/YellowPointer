@@ -1,0 +1,38 @@
+﻿Changes for Version 2.0
+Codename: "Fall Buccaneer Update"
+
+Highlights:
+    1. Data Update Module
+        a. Database is upgraded to version 2
+            i. New information stored: CIK
+        b. Financial information is scanned and updated in settings menu
+            i. Companies are checked by EDGAR, SEC's financial database
+            ii. Missing data is then downloaded using Morningstar
+        c. Edit Entry module updated to allow manual addition of CIK
+    2. Error Logging
+        a. When YP encounters a program error, it is written to a log
+        b. Aids in diagnosing issues and other bugs
+    3. Settings Overhaul
+        a. Changing settings are now intuitive
+        b. Ability to seamlessly upload program error logs
+        c. Ability to view database version, amount of entries DB
+    4. Cell Formatting
+        a. Cells now properly format the data they hold
+    5. Admin Mode
+        a. Allows for more powerful, behind-the-scenes program execution
+        b. Supported functions:
+            i. Delete database entries
+    6. Installer v2
+        a. Installer has been upgraded to version 2
+    7. Progam will display 'Exporting...' when generating workbooks
+    8. When Yellow Pointer generates any Excel workbook, it will open automatically
+        a. This new feature is customizable in Settings
+    9. Database file is now compressed before uploading
+        a. Reduces bandwidth used
+        b. Signigicantly decreased upload times
+        c. Files uploaded are up to 1/5th their original size
+    10. By typing 'exit' in the main menu, the program will close
+    11. The Search Module's 'Get General Info' option now displays more info
+    12. Bug fixed: If the user searched with an invalid metric/year, the program would loop
+    13. Under The Hood
+        a. YP checks for updates based on AWS services; migrated from ODU's servers
